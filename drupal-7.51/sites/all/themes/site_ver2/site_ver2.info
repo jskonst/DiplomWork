@@ -4,7 +4,14 @@ package = Core
 version = 2.0
 core = 7.x
 
-stylesheets[all][] = style.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/flickerplate.css
+stylesheets[all][] = css/demo.css
+stylesheets[all][] = css/ihover.css
+
+scripts[] = scripts/hammer-v2.0.3.js
+scripts[] = scripts/flickerplate.js
+
 regions[header] = header
 regions[content] = content
 regions[sidebar_second] = menu
