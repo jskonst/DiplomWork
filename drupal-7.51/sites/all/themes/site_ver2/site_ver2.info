@@ -9,6 +9,9 @@ regions[header] = header
 regions[content] = content
 regions[sidebar_second] = menu
 regions[sidebar_first] = baner
+regions[main_picture] = Анимационная картинка
+regions[main_tools] = Оборудование
+regions[main_works] = Примеры работ
 regions[footer] = footer
 
 

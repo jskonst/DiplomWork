@@ -7,7 +7,6 @@
  * @see https://drupal.org/node/1728246
  */
 ?>
-<h1>Block content</h1>
 <div class="<?php print $classes; ?>"<?php print $attributes; ?> id="<?php print $block_html_id; ?>">
 
   <?php print render($title_prefix); ?>

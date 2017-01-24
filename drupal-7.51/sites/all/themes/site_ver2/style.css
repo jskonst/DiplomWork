@@ -1,3 +1,37 @@
+.logo{
+    float:right;
+    margin-right: 0px;
+    width: 40%;
+}
+
+.logo img{
+    width: 350px;
+}
+
+.lang{
+    position: absolute;
+    z-index: 9999;
+    top: 0px;
+    left: 15%;
+    font-size: 40px;
+}
+
+.lang div{
+    width: 70px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.lang .active{
+    background-color: rgba(255, 102, 0,1);
+}
+.lang a{
+    color: #fff;
+}
+
+
+
 .content {
     float: left; 
     width: 57%;
@@ -21,13 +55,6 @@ body{
 p {
     margin-bottom: 0px;
     margin-top: 0px;
-}
-
-#logo {
-    float: right;
-    margin-right: 0px;
-    width: 43%;
-    min-width: 425px;
 }
 
 #block-block-14 {
@@ -114,6 +141,7 @@ p {
 }
 
 #block-views-slite-show-block h2 {
+/*#block-views-slite-show-block h2 {*/
     display:none; 
 }
 
@@ -130,7 +158,11 @@ p {
 
 #block-views-slidertest-block {
     padding-top: 146px;
-    width: 500px;
+    height: 500px; 
+    width: 100% 
+}
+.field-content img { 
+    height: 500px; 
 }
 .views-field.views-field-title,
 .views-label.views-label-field-prosto-pic{
@@ -288,4 +320,8 @@ ul.links.inline {
 }
 #block-block-13 p {
     margin-top: 0px;
+}
+
+#first-time {
+    display:none;
 }
