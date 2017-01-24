@@ -147,7 +147,7 @@ img{
 #schema{
 	width: 100%;
 }
-.block{
+.own_block{
 	height: 400px;
 	background-image: url('carousel/img/flicker-1.jpg');
 	color: #fff;
