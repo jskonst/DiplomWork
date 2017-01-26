@@ -4,7 +4,7 @@ body{
 }
 .lang{
 	position: absolute;
-	z-index: 9999;
+	z-index: 99;
 	top: 0px;
 	left: 15%;
 	font-size: 40px;
@@ -25,7 +25,7 @@ body{
 }
 .logo{
 	float:right;
-	margin-right: 0px;
+	margin-right: 27px;
 	width: 40%;
 	
 }
@@ -37,7 +37,7 @@ body{
 .menu{
     position: absolute;
     right: 0px;
-    top: 146px;
+    top: 145px;
     z-index: 2;
     background-color:rgba(255, 102, 0,0.6);    
     width: 40%;
@@ -51,9 +51,11 @@ img{
 }
 
 .two-blocks{
+
 	display: inline-block;
 	margin: 0 auto;
-	 height: 100%;
+	width: 100%;
+	height: 100%;
 }
 .child-info{
 	float: left;
@@ -124,10 +126,10 @@ img{
 }
 
 .menu li{
-	font-size: 36px;
+	font-size: 32px;
 	list-style-type: none;
 	border-bottom: 1px solid #fff;
-	line-height: 1.5;
+	line-height: 1.6;
 	text-indent: 30px;
 }
 
@@ -147,7 +149,7 @@ img{
 #schema{
 	width: 100%;
 }
-.own_block{
+.block_backup{
 	height: 400px;
 	background-image: url('carousel/img/flicker-1.jpg');
 	color: #fff;
@@ -198,4 +200,54 @@ h1{
 #logo2{
 	position: absolute;
 	left: 30px;
+}
+#block-block-18 { 
+text-align: center; 
+margin-bottom: 40px; 
+} 
+
+.text_pic_krug { 
+color: rgba(255, 102, 0,0.6); 
+text-align: left; 
+margin-left: 10%; 
+margin-top: 22px; 
+margin-bottom: 22px; 
+font-size: 24pt; 
+font-weight: 600; 
+font-family: Helvetica; 
+} 
+
+.pic_krug { 
+width: 300px; 
+height: 300px; 
+margin: 0 20px 0 20px; 
+display: inline-block; 
+} 
+
+.pic_krug img { 
+width: 100%; 
+height: 100%; 
+border-radius: 50%; 
+}
+#text_block17 { 
+text-align: center; 
+width: 100%; 
+padding-top: 160px; 
+color: #fff; 
+font-size: 50px; 
+position: absolute; 
+font-family: Helvetica; 
+} 
+
+#pic_block17 { 
+width: 100%; 
+height: 400px; 
+overflow: hidden; 
+line-height: 185px; 
+text-align: center; 
+} 
+
+#pic_block17 img { 
+width: 100%; 
+vertical-align: middle; 
 }

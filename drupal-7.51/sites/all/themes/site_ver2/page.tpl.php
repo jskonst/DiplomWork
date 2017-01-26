@@ -1,28 +1,14 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<div class="flickerplate-no-touch">
 <div class="logo">
    <a href="/" title="Главная" rel="home">
     <img src="../sites/default/files/logo.png" alt="Главная">
    </a>
 </div>
-<div class="flicker-example">
-    <div class="lang">
+    <div class="lang child-lang">
         <div class="active"><a href="#">RU</a></div>
         <div><a href="#">EN</a></div>
-    </div>
-            <ul>
-                
-                <li data-background="carousel/img/flicker-1.jpg"></li>
-                <li data-background="carousel/img/flicker-2.jpg"></li>
-                <li data-background="carousel/img/flicker-3.jpg"></li>
-                <li data-background="carousel/img/flicker-2.jpg"></li>
-                            
-            </ul>
-</div>
-
-<?php if ($main_menu): ?>
-   <?php print render(menu_tree('main-menu')); ?>
-<?php endif; ?>
+     </div>
+            <img src="../sites/default/files/child-img.png">
 
 <?php /*if ($page['header']): ?>
     <div class="header">
@@ -41,12 +27,21 @@
         <?php print render($page['header']); ?>
     </div>
 <?php endif; */?>
-
+<div class="two-blocks">
 <?php if ($page['content']): ?>
     <div class="child-info">
         <?php print render($page['content']); ?>
     </div>
 <?php endif; ?>
+<div class="child-menu-block">
+         <div class="child-menu">
+<?php 
+  print theme('links', array('links' => menu_navigation_links('main-menu'), 'attributes' => array('class'=> array('links', 'main-menu')) ));
+?>
+
+</div>
+</div>
+</div>
 
 <?php /*if ($page['sidebar_second']): ?>
     <div class="menu">
@@ -65,8 +60,8 @@
 <div class="row">
 
     <div class="map-block">
-        <img src="logo2.png" id="logo2">
-        <img src="logo3.jpg">
+        <img src="../sites/default/files/logo2.png" id="logo2">
+        <img src="../sites/default/files/logo3.jpg">
     </div>
 <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=h2PHpnPS0zR0ZPwrEqNS-6IcPFB_Nz7n&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
 
@@ -109,4 +104,3 @@
 <script>
     new flickerplate('.flicker-example');
 </script>
-</div>
