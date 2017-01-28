@@ -10,10 +10,12 @@
 ?>
 <div class="<?php print $classes; ?> clearfix node-<?php print $node->nid; ?>"<?php print $attributes; ?>>
 
+      <?php if ($title): ?>
+	<h1><?php print $title; ?></h1>
+      <?php endif; ?>
+
   <?php if ($title_prefix || $title_suffix || $display_submitted || $unpublished || $preview || !$page && $title): ?>
 
-    
-    
       <?php print render($title_prefix); ?>
       <?php if (!$page && $title): ?>
         <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
