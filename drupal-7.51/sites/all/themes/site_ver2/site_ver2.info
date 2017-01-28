@@ -20,6 +20,7 @@ regions[sidebar_first] = baner
 regions[main_picture] = Анимационная картинка
 regions[main_tools] = Оборудование
 regions[main_works] = Примеры работ
+regions[banners] = Баннеры
 regions[footer] = footer
 
 

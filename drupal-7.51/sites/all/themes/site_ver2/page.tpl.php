@@ -10,41 +10,32 @@
      </div>
             <img src="../sites/default/files/child-img.png">
 
-<?php /*if ($page['header']): ?>
-    <div class="header">
-        <?php print render($page['header']); ?>
-    </div>
-<?php endif; ?>
-
-<?php /*if ($logo): ?>
-      <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
-        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-      </a>
-    <?php endif; ?>
-
-<?php if ($page['header']): ?>
-    <div class="header">
-        <?php print render($page['header']); ?>
-    </div>
-<?php endif; */?>
 <div class="two-blocks">
-<?php if ($page['content']): ?>
-    <div class="child-info">
-        <?php print render($page['content']); ?>
-    </div>
-<?php endif; ?>
+	<?php if ($page['content']): ?>
+	    <div class="child-info">
+		<?php print render($page['content']); ?>
+	    </div>
+	<?php endif; ?>
 <div class="child-menu-block">
          <div class="child-menu">
-<?php 
-  print theme('links', array('links' => menu_navigation_links('main-menu'), 'attributes' => array('class'=> array('links', 'main-menu')) ));
-?>
+	<?php 
+	  print theme('links', array('links' => menu_navigation_links('main-menu'), 'attributes' => array('class'=> array('links', 'main-menu')) ));
+	?>
 
 </div>
+<?php if ($page['banners']): ?>
+    <div class="child-banners">
+        <?php print render($page['banners']); ?>
+    </div>
+<?php endif; ?>
 </div>
+
 </div>
+
 
 <?php /*if ($page['sidebar_second']): ?>
     <div class="menu">
+regions[banners] = Баннеры
         <?php print render($page['sidebar_second']); ?>
     </div>
 <?php endif; ?>
