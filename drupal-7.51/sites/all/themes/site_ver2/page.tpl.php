@@ -1,4 +1,5 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?139"></script>
 <div class="logo">
    <a href="/" title="Главная" rel="home">
     <img src="../sites/default/files/logo.png" alt="Главная">
@@ -23,6 +24,14 @@
 	?>
 
 </div>
+<div class="child-banners">
+	<div id="vk_groups"></div>
+	<script type="text/javascript">
+		VK.Widgets.Group("vk_groups", {mode: 4, wide: 1, no_cover: 1, width: "450px", height: "400"}, 133225986);
+	</script>
+</div>
+
+
 <?php if ($page['banners']): ?>
     <div class="child-banners">
         <?php print render($page['banners']); ?>
@@ -31,6 +40,7 @@
 </div>
 
 </div>
+
 
 
 <?php /*if ($page['sidebar_second']): ?>
