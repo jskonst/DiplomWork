@@ -164,7 +164,7 @@ img{
 
 h1{
 	color:rgba(255, 102, 0,0.6);
-	margin-left: 10%; 
+	margin-left: 0%; 
 }
 
 .row{
@@ -252,4 +252,9 @@ text-align: center;
 #pic_block17 img { 
 width: 100%; 
 vertical-align: middle; 
+}
+.marker {
+}
+.marker strong{
+color: #fff;
 }

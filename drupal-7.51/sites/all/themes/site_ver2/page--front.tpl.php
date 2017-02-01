@@ -6,14 +6,21 @@
 </div>
 <div class="flicker-example">
     <div class="lang">
-        <div class="active"><a href="#">RU</a></div>
-        <div><a href="#">EN</a></div>
+        <div class="active"><a href="/ru">RU</a></div>
+        <div><a href="/en">EN</a></div>
     </div>
             <ul>
-                
-                <li data-background="sites/default/files/styles/site_show/public/1qq7lGBRe2s.jpg?itok=OpZ-lON1"></li>
-                <li data-background="sites/default/files/styles/site_show/public/WoJ3JCQMPhY_0.jpg?itok=zmjKgh8c"></li>
-                            
+<?php 
+$view = views_get_view_result('slideshow_top');
+	foreach ($view as $result) {
+				print '<li data-background="sites/default/files/styles/site_show/public/' . $result->_field_data['nid']['entity']->field_pic_top['und']['0']['filename'] . '">';
+				print '<a href = "www.ya.ru">';
+				print '</a> </li>';
+'' ;		/*print $result->_field_data['nid']['entity']->field_link['und']['0']['url'] ;*/
+}
+?>
+                <!--<li data-background="sites/default/files/styles/site_show/public/1qq7lGBRe2s.jpg?itok=OpZ-lON1"></li>
+                <li data-background="sites/default/files/styles/site_show/public/WoJ3JCQMPhY_0.jpg?itok=zmjKgh8c"></li>-->
             </ul>
 </div>
 
