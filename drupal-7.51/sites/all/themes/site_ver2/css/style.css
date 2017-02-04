@@ -253,3 +253,10 @@ text-align: center;
 width: 100%; 
 vertical-align: middle; 
 }
+
+.form-item.form-type-item {
+  display:none; 
+}
+.links.inline {
+  display:none; 
+}
