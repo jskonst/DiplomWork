@@ -270,3 +270,23 @@ vertical-align: middle;
     margin-top: 21px;
     margin-bottom: 21px;
 }
+
+/*Сотрудники*/
+.view-content {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+.view-content div{
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+.view-content div  div h2 {
+	display: none;
+}
