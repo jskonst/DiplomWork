@@ -254,6 +254,8 @@ width: 100%;
 vertical-align: middle; 
 }
 .marker {
+text-shadow: 1px -1px 0px rgba(0, 0, 0, 1),1px 1px 0px rgba(150, 150, 150, 1),
+1px 1px 0px rgba(0, 0, 0, 1),-1px 1px 0px rgba(150, 150, 150, 1) ;
 }
 .marker strong{
 color: #fff;
