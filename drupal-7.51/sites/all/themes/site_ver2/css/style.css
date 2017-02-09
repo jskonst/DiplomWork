@@ -297,5 +297,13 @@ color: #fff;*/
 }
 #block-system-main div.view-content div div h2 {
 	display: none;
+}
 
+/*footer*/
+#block-block-13 {
+  height: 80px;
+}
+#block-block-29 {
+  text-align: left;
+  margin-left: 10px;
 }
