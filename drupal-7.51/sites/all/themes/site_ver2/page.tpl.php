@@ -9,7 +9,7 @@
         <div class="active"><a href="/ru">RU</a></div>
         <div><a href="/en">EN</a></div>
      </div>
-            <img src="../../sites/default/files/child-img.png">
+            <img id="shema" src="../../sites/default/files/child-img.png">
 
 <div class="two-blocks">
 	<?php if ($page['content']): ?>
