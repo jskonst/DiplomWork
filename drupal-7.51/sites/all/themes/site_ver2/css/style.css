@@ -261,7 +261,7 @@ text-shadow: 1px -1px 0px rgba(0, 0, 0, 1),1px 1px 0px rgba(150, 150, 150, 1),
 .marker strong{
 color: #fff;*/
 
-
+/*del ru/end*/
 .form-item.form-type-item {
   display:none; 
 }
@@ -269,7 +269,7 @@ color: #fff;*/
   display:none; 
 }
 
-.field-content {
+/*.field-content {
     color: rgba(255, 102, 0,0.6);
     font-size: 32px;
     font-weight: 600;
@@ -277,10 +277,10 @@ color: #fff;*/
 .views-field.views-field-title {
     margin-top: 21px;
     margin-bottom: 21px;
-}
+}*/
 
-/*Сотрудники*/
-.child-info.region.region-content.block.block-system.view.view-team-ru.view-id-team_ru.view-display-id-page.view-dom-id-49af5348b03b8cec15ed483d51924b29.view-content {
+/*sotrudniki*/
+#block-system-main div.view-content {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -288,14 +288,14 @@ color: #fff;*/
     -webkit-flex-flow: row wrap;
     justify-content: space-around;
 }
-.child-info.region.region-content.block.block-system.view.view-team-ru.view-id-team_ru.view-display-id-page.view-dom-id-49af5348b03b8cec15ed483d51924b29.view-content div{
+#block-system-main div.view-content div{
     width: 350px;
     height: 350px;
     text-align: center;
     padding: 5px;
     margin-top: 10px;
 }
-.child-info.region.region-content.block.block-system.view.view-team-ru.view-id-team_ru.view-display-id-page.view-dom-id-49af5348b03b8cec15ed483d51924b29.view-content div div h2 {
+#block-system-main div.view-content div div h2 {
 	display: none;
 
 }
