@@ -37,7 +37,7 @@ body{
 .menu{
     position: absolute;
     right: 0px;
-    top: 144px;
+    top: 143px;
     z-index: 2;
     background-color:rgba(255, 102, 0,0.6);    
     width: 40%;
@@ -253,10 +253,49 @@ text-align: center;
 width: 100%; 
 vertical-align: middle; 
 }
+/*myFixes
 .marker {
 text-shadow: 1px -1px 0px rgba(0, 0, 0, 1),1px 1px 0px rgba(150, 150, 150, 1),
 1px 1px 0px rgba(0, 0, 0, 1),-1px 1px 0px rgba(150, 150, 150, 1) ;
 }
 .marker strong{
-color: #fff;
+color: #fff;*/
+
+
+.form-item.form-type-item {
+  display:none; 
+}
+.links.inline {
+  display:none; 
+}
+
+.field-content {
+    color: rgba(255, 102, 0,0.6);
+    font-size: 32px;
+    font-weight: 600;
+}
+.views-field.views-field-title {
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+
+/*Сотрудники*/
+.child-info.region.region-content.block.block-system.view.view-team-ru.view-id-team_ru.view-display-id-page.view-dom-id-49af5348b03b8cec15ed483d51924b29.view-content {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+.child-info.region.region-content.block.block-system.view.view-team-ru.view-id-team_ru.view-display-id-page.view-dom-id-49af5348b03b8cec15ed483d51924b29.view-content div{
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+.child-info.region.region-content.block.block-system.view.view-team-ru.view-id-team_ru.view-display-id-page.view-dom-id-49af5348b03b8cec15ed483d51924b29.view-content div div h2 {
+	display: none;
+
 }
