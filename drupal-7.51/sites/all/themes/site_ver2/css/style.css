@@ -46,10 +46,6 @@ body{
 
 }
 
-img{
-	width: 100%;
-}
-
 .two-blocks{
 
 	display: inline-block;
@@ -306,4 +302,12 @@ color: #fff;*/
 #block-block-29 {
   text-align: left;
   margin-left: 10px;
+}
+
+/*fix shema*/
+#block-block-16 p img{
+  width: 100%;
+}
+#shema {
+  width: 100%;
 }
