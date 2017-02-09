@@ -1,14 +1,15 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?139"></script>
 <div class="logo">
    <a href="/" title="Главная" rel="home">
-    <img src="../sites/default/files/logo.png" alt="Главная">
+    <img src="../../sites/default/files/logo.png" alt="Главная">
    </a>
 </div>
     <div class="lang child-lang">
-        <div class="active"><a href="#">RU</a></div>
-        <div><a href="#">EN</a></div>
+        <div class="active"><a href="/ru">RU</a></div>
+        <div><a href="/en">EN</a></div>
      </div>
-            <img src="../sites/default/files/child-img.png">
+            <img src="../../sites/default/files/child-img.png">
 
 <div class="two-blocks">
 	<?php if ($page['content']): ?>
@@ -23,6 +24,14 @@
 	?>
 
 </div>
+<div class="child-banners">
+	<div id="vk_groups"></div>
+	<script type="text/javascript">
+		VK.Widgets.Group("vk_groups", {mode: 4, wide: 1, no_cover: 1, width: "450px", height: "400"}, 133225986);
+	</script>
+</div>
+
+
 <?php if ($page['banners']): ?>
     <div class="child-banners">
         <?php print render($page['banners']); ?>
@@ -31,6 +40,7 @@
 </div>
 
 </div>
+
 
 
 <?php /*if ($page['sidebar_second']): ?>
@@ -51,8 +61,8 @@ regions[banners] = Баннеры
 <div class="row">
 
     <div class="map-block">
-        <img src="../sites/default/files/logo2.png" id="logo2">
-        <img src="../sites/default/files/logo3.jpg">
+        <img src="../../sites/default/files/logo2.png" id="logo2">
+        <img src="../../sites/default/files/logo3.jpg">
     </div>
 <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=h2PHpnPS0zR0ZPwrEqNS-6IcPFB_Nz7n&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
 

@@ -8,6 +8,8 @@ stylesheets[all][] = css/style.css
 stylesheets[all][] = css/flickerplate.css
 stylesheets[all][] = css/demo.css
 stylesheets[all][] = css/ihover.css
+stylesheets[all][] = css/modern_equipment.css
+stylesheets[all][] = css/pic_krug.css
 
 scripts[] = scripts/hammer-v2.0.3.js
 scripts[] = scripts/flickerplate.js

@@ -1,0 +1,23 @@
+#block-views-krug-pic-block {
+    height: 330px;
+}
+
+.jcarousel-container.jcarousel-container-horizontal {
+    position: relative;
+    display: block;
+    width: 1126px;
+    height: 340px;
+}
+
+.jcarousel-clip.jcarousel-clip-horizontal {
+    position: relative;
+    width: 1027px;
+    margin-right: 0px;
+}
+
+.jcarousel.jcarousel-view--krug-pic--block.jcarousel-dom-1.jcarousel-processed.jcarousel-list.jcarousel-list-horizontal li{
+    float: left;
+    list-style: none;
+    width: 309px;
+    height: 300px;
+}
