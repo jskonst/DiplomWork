@@ -46,10 +46,6 @@ body{
 
 }
 
-img{
-	width: 100%;
-}
-
 .two-blocks{
 
 	display: inline-block;
@@ -260,6 +256,15 @@ vertical-align: middle;
 color: #fff;
 }
 
+/*myFixes
+.marker {
+text-shadow: 1px -1px 0px rgba(0, 0, 0, 1),1px 1px 0px rgba(150, 150, 150, 1),
+1px 1px 0px rgba(0, 0, 0, 1),-1px 1px 0px rgba(150, 150, 150, 1) ;
+}
+.marker strong{
+color: #fff;*/
+
+/*del ru/end*/
 .form-item.form-type-item {
   display:none; 
 }
@@ -267,7 +272,7 @@ color: #fff;
   display:none; 
 }
 
-.field-content {
+/*.field-content {
     color: rgba(255, 102, 0,0.6);
     font-size: 32px;
     font-weight: 600;
@@ -275,10 +280,10 @@ color: #fff;
 .views-field.views-field-title {
     margin-top: 21px;
     margin-bottom: 21px;
-}
+}*/
 
-/*Сотрудники*/
-.view-content {
+/*sotrudniki*/
+#block-system-main div.view-content {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -286,13 +291,30 @@ color: #fff;
     -webkit-flex-flow: row wrap;
     justify-content: space-around;
 }
-.view-content div{
+#block-system-main div.view-content div{
     width: 350px;
     height: 350px;
     text-align: center;
     padding: 5px;
     margin-top: 10px;
 }
-.view-content div  div h2 {
+#block-system-main div.view-content div div h2 {
 	display: none;
+}
+
+/*footer*/
+#block-block-13 {
+  height: 80px;
+}
+#block-block-29 {
+  text-align: left;
+  margin-left: 10px;
+}
+
+/*fix shema*/
+#block-block-16 p img{
+  width: 100%;
+}
+#shema {
+  width: 100%;
 }
