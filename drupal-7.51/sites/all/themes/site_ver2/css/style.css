@@ -250,19 +250,21 @@ width: 100%;
 vertical-align: middle; 
 }
 
+/*
 .marker {
 }
 .marker strong{
 color: #fff;
 }
-
-/*myFixes
+*/
+/*myFixes*/
 .marker {
 text-shadow: 1px -1px 0px rgba(0, 0, 0, 1),1px 1px 0px rgba(150, 150, 150, 1),
 1px 1px 0px rgba(0, 0, 0, 1),-1px 1px 0px rgba(150, 150, 150, 1) ;
 }
 .marker strong{
-color: #fff;*/
+color: #fff;
+}
 
 /*del ru/end*/
 .form-item.form-type-item {
@@ -317,4 +319,14 @@ color: #fff;*/
 }
 #shema {
   width: 100%;
+}
+
+.map_contacts {
+    position: absolute;
+    top: 100px;
+    margin: 5px;
+}
+
+.top_picture p {
+    margin:0;
 }

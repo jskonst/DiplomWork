@@ -9,7 +9,14 @@
         <div class="active"><a href="/ru">RU</a></div>
         <div><a href="/en">EN</a></div>
      </div>
-            <img id="shema" src="../../sites/default/files/child-img.png">
+
+	<?php if ($page['top_picture']): ?>
+	    <div class="top_picture">
+		<?php print render($page['top_picture']); ?>
+	    </div>
+	<?php endif; ?>
+
+            <!--<img id="shema" src="../../sites/default/files/child-img.png">-->
 
 <div class="two-blocks">
 	<?php if ($page['content']): ?>
@@ -27,7 +34,14 @@
 <div class="child-banners">
 	<div id="vk_groups"></div>
 	<script type="text/javascript">
-		VK.Widgets.Group("vk_groups", {mode: 4, wide: 1, no_cover: 1, width: "450px", height: "400"}, 133225986);
+		VK.Widgets.Group("vk_groups", {mode: 4,
+	 wide: 1,
+	 no_cover: 1,
+	 width: "auto",
+	 height: "400"},
+	 133225986);
+	window.addEventListener('load', VK_Widget_Init, false);
+        window.addEventListener('resize', VK_Widget_Init, false);
 	</script>
 </div>
 
@@ -63,6 +77,11 @@ regions[banners] = Баннеры
     <div class="map-block">
         <img src="../../sites/default/files/logo2.png" id="logo2">
         <img src="../../sites/default/files/logo3.jpg">
+	<?php if ($page['map_contacts']): ?>
+	    <div class="map_contacts">
+		<?php print render($page["map_contacts"]); ?>
+	    </div>
+	<?php endif; ?>
     </div>
 <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=h2PHpnPS0zR0ZPwrEqNS-6IcPFB_Nz7n&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
 

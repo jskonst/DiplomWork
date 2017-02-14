@@ -15,16 +15,14 @@ scripts[] = scripts/hammer-v2.0.3.js
 scripts[] = scripts/flickerplate.js
 
 regions[header] = header
+regions[top_picture] = Баннер раздела
 regions[content] = content
 regions[menu_bar] = Меню
-regions[sidebar_second] = menu
-regions[sidebar_first] = baner
 regions[main_picture] = Анимационная картинка
 regions[main_tools] = Оборудование
 regions[main_works] = Примеры работ
 regions[banners] = Баннеры
+regions[map_contacts] = Контакты
 regions[footer] = footer
-
-
 
 

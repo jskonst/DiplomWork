@@ -62,6 +62,12 @@ $view = views_get_view_result('slideshow_top');
     <div class="map-block">
         <img src="sites/default/files/logo2.png" id="logo2">
         <img src="sites/default/files/logo3.jpg">
+	<?php if ($page['map_contacts']): ?>
+	    <div class="map_contacts">
+		<?php print render($page["map_contacts"]); ?>
+	    </div>
+	<?php endif; ?>
+
     </div>
 <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=h2PHpnPS0zR0ZPwrEqNS-6IcPFB_Nz7n&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
 
